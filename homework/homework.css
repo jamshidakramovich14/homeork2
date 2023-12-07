@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+.main{
+  display: flex; 
+  justify-content: space-between; 
+}
+
+header > div > p{
+    color: #949494;
+
+text-align: right;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 200%; /* 32px */
+}
+
+nav > p{
+    color: #949494;
+
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 200%; /* 32px */
+}
+
+
+.wrapper{
+    width: 400px;
+    height: 200px;
+    border: 2px solid grey;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+}
+
+b{
+    color: #212121;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 32px */
+}
+
+section > div > div{
+    display: flex;
+}
+
+
+.text{
+    color: #949494;
+
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 200%; /* 32px */
+}
+
+
+.wall{
+    display: flex;
+    width: 1000px;
+    height: 250px;
+    justify-content: space-between;
+}
+
+.tekt{
+    color: #212121;
+
+font-family: Poppins;
+font-size: 25px;
+font-style: normal;
+font-weight: 500;
+line-height: 200%; /* 56px */
+}
+
+.button{
+    color: white;
+background-color: teal;
+text-align: center;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 200%; /* 48px */
+margin-top: 58px;
+}
+
+
+button{
+    color: #008F76;
+
+text-align: center;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 200%; /* 48px */
+margin-top: 108px;
+}
+
+.short{
+    margin-top: 20px;
+}
